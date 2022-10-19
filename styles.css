@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: violet;
+    position: fixed;
+    width: 120px;
+    height: 300px;
+    border-radius: 0px 30px 30px 0px;
+    z-index: 1;
+    top: 200px;
+    left: -90px;
+}
+
+.menu:hover {
+    left: 0px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.menu #facebook {
+    position: absolute;
+    margin: 30px;
+    margin-top: 120px;
+}
+
+.menu #linkedin {
+    position: absolute;
+    margin: 30px;
+}
+
+.menu #instagram {
+    position: absolute;
+    margin: 30px;
+    margin-top: 220px;
+}
+
+.cabecalho {
+    background-color: blueviolet;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    z-index: 10;
+}
+
+.cabecalho img {
+    display: block;
+    margin: auto;
+}
+
+.conteudo img {
+    width: 100vw;
+    height: 700px;
+}
+
+.conteudo h2 {
+    display: block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.435);
+    color: white;
+    width: 100vw;
+    height: 100px;
+    bottom: 105px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.conteudo p {
+    font-size: 25px;
+    text-align: center;
+}
+
+.topo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
